@@ -67,3 +67,11 @@ If you need to remove the `node_modules` directory and reinstall:
 ```bash
 rm -rf node_modules yarn.lock
 ```
+
+## UI/UX Design
+The UI/UX design is based on modern mobile app design principles, focusing on usability and accessibility. The app features a clean layout with intuitive navigation, ensuring users can easily access meal tracking and health management features.
+
+### React Bits
+I'll be using React bits to enhance the app's functionality, link to [React Bits](https://www.reactbits.dev} for more information.
+
+
