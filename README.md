@@ -14,11 +14,10 @@ npx npm-check-updates -u
 
 Install the updated packages:
 ```bash
-npm install
+yarn install
 ```
 
 If you need to remove the `node_modules` directory and reinstall:
 ```bash
-rm -rf node_modules package-lock.json
+rm -rf node_modules yarn.lock
 ```
-
