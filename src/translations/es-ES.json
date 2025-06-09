@@ -1,0 +1,19 @@
+{
+  "healthlife": {
+    "common_appName": {
+      "full": "React Native Vida Saludable",
+      "initials": "RNV"
+    },
+    "common_error": "¡Vaya! Algo salió mal.",
+    "screen_example": {
+      "hello_user": "Hola, mi nombre es {{name}}",
+      "title": "Bienvenido a The $t(common_appName.full)",
+      "description": "¿Quieres descubrir algunas características? Simplemente haz clic en uno de los tres botones en la parte inferior de la pantalla. El primero te permite llamar a una API REST. El segundo te permite cambiar el color del tema. Y el tercero te permite cambiar el idioma."
+    },
+    "error_boundary": {
+      "title": "¡Vaya! Algo salió mal.",
+      "description": "Lamentamos la inconveniencia. Por favor, inténtalo de nuevo más tarde.",
+      "cta": "Recargar la pantalla"
+    }
+  }
+}
