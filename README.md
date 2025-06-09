@@ -68,10 +68,47 @@ If you need to remove the `node_modules` directory and reinstall:
 rm -rf node_modules yarn.lock
 ```
 
+## Running the App
+To run the Heath Life mobile app, follow these steps:
+1. **List emulators available**
+   ```bash
+   xcrun simctl list devices
+   ```
+2. **Boot device**
+   ```bash
+   xcrun simctl boot "iPhone 16"
+   ```
+3. **Run the emulator**
+   ```bash
+   open -a Simulator
+    ```
+4. **Start the app**
+    ```bash
+    yarn ios
+    ```
+
+If is is needed to run the app on ios device, you can use the following command:
+1. **Install pod**
+   ```bash
+    cd ios && pod install
+   ```
+2. **Run the app on a physical device**
+   ```bash
+    yarn ios:device
+   ```
+
+> Note:
+> To install pods, ensure you have CocoaPods installed. If not, you can install it using:
+```bash
+sudo gem install cocoapods
+```
+
+
+
 ## UI/UX Design
 The UI/UX design is based on modern mobile app design principles, focusing on usability and accessibility. The app features a clean layout with intuitive navigation, ensuring users can easily access meal tracking and health management features.
 
 ### React Bits
-I'll be using React bits to enhance the app's functionality, link to [React Bits](https://www.reactbits.dev} for more information.
+I'll be using React bits to enhance the app's functionality, link to [React Bits](https://www.reactbits.dev) for more information.
 
 
